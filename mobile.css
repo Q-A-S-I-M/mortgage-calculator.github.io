@@ -1,0 +1,435 @@
+@media only screen and (max-width: 767px) {
+    input[type=number]::-webkit-outer-spin-button,
+        input[type=number]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    margin-right: 8vw;
+    width: 50vw;
+    height: 75vh;
+    background-color:white;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: 2;
+}
+body{
+    background-color: hsl(202, 86%, 94%);
+}
+.mainHeading{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.mainHeading h3{
+padding-left: 1.7vw;
+color: hsl(202, 55%, 16%);
+}
+#clearAll{
+    position: relative;
+    bottom: 6vh;
+    right: 10.5vw;
+    font-size: 13px;
+    color: hsl(200, 26%, 54%);
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 7vh;
+    font-family: sans-serif;
+    color: hsl(200, 26%, 54%);
+}
+.input1_1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 2vh;
+}
+.input1_1 input{
+    border-style: solid;
+    width: 42vw;
+    border-left: 0px;
+    border-width: 1.5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-color: hsl(200, 26%, 54%);
+}
+.icon{
+    width: 4vw;
+    height: 4vh;
+    background-color: hsl(202, 86%, 94%);
+    color: hsl(200, 26%, 54%);
+    border-style: solid;
+    border-right: 0px;
+    border-width: 1.5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.icon i{
+    padding-left: 1.2vw;
+    padding-top: 0.8vh;
+}
+.input2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 15vh;
+}
+.input2_1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.7vw;
+    font-family: sans-serif;
+    color: hsl(200, 26%, 54%);
+}
+.input_years{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 2vh;
+}
+.input_years input{
+    height: 3.3vh;
+    width: 38.4vw;
+    border-style: solid;
+    border-color:  hsl(200, 26%, 54%);
+    border-right: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-width: 1.5px;
+}
+.year_p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.6vh;
+    width: 7.48vw;
+    background-color: hsl(202, 86%, 94%);
+    border-style: solid;
+    border-left: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-width: 1.5px;
+    font-size: smaller;
+}
+.input2_2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 8vh;
+    padding-left: 1.8vw;
+    font-family: sans-serif;
+    color: hsl(200, 26%, 54%);
+}
+.input_rate{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 2vh;
+}
+.input_rate input{
+    height: 3.3vh;
+    width: 40.98vw;
+    border-style: solid;
+    border-color:  hsl(200, 26%, 54%);
+    border-right: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-width: 1.5px;
+}
+.rate_p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.6vh;
+    width: 4.8vw;
+    background-color: hsl(202, 86%, 94%);
+    border-style: solid;
+    border-left: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-width: 1.5px;
+    font-size: smaller;
+}
+.change{
+    background-color: hsl(61, 70%, 52%) ;
+    border-color:  hsl(61, 70%, 52%);
+    color: black;
+}
+
+.selection{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.68vw;
+    font-family: sans-serif;
+    color:  hsl(200, 26%, 54%);
+    position: relative;
+    bottom: 31vh;
+}
+label{
+    color: hsl(202, 55%, 16%);
+    cursor: pointer;
+}
+
+.repay{
+    padding-top: 1.8vh;
+    padding-left: 0.7vw;
+    width: 45.8vw;
+    height: 4.8vh;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: hsl(200, 26%, 54%);
+    border-radius: 3px;
+    position: relative;
+    bottom: 1.6vh;
+    cursor: pointer;
+}
+.int{
+    padding-top: 1.8vh;
+    padding-left: 0.7vw;
+    margin-top: 0.8vh;
+    width: 45.8vw;
+    height: 4.8vh;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color:  hsl(200, 26%, 54%);
+    border-radius: 3px;
+    position: relative;
+    bottom: 1.6vh;
+    cursor: pointer;
+}
+input[type="radio"]{
+    top: 0.05vh;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    width: 1.5vw;
+    height: 1.7vh;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1.5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked::before{
+    content: "";
+    width: 0.7vw;
+    height: 0.96vh;
+    top: 0.676vh;
+    left: 0.545vw;
+    border-radius: 10px;
+    position: absolute;
+    background-color:hsl(61, 70%, 52%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+input[type="radio"].checked{
+    border-color: hsl(61, 70%, 52%);
+    cursor: pointer;
+}
+
+.change2{
+    border-color: hsl(61, 70%, 52%);
+    background-color:  hsl(60, 100%, 95%);
+}
+
+#cal{
+    font-family: sans-serif;
+    margin-left: 1.6vw;
+    border-radius: 25px;
+    border-width: 0px;
+    width: 47vw;
+    height: 6.7vh;
+    background-color: hsl(61, 70%, 52%);
+    position: relative;
+    bottom: 36vh;
+}
+#cal b{
+    margin-left: 0.8vw;
+    font-size: 14px;
+    position: relative;
+    bottom: 0.2vh;
+    border-radius: 0px;
+}
+#cal img{
+    height: 2.8vh;
+    position: relative;
+    top: 0.3vh;
+}
+.calculator{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#cal:hover{
+    background-color: hsl(61, 80%, 70%);
+    scale: 1.01;
+    cursor: pointer;
+}
+#cal:active {
+    background-color: hsl(61, 80%, 60%);
+    scale: 1;
+}
+.alert{
+    background-color: hsl(4, 69%, 50%);
+    border-color: hsl(4, 69%, 50%);
+    color: white;
+}
+
+.main2{
+    width: 50vw;
+    height: 73vh;
+    background-color: hsl(202, 55%, 16%);
+    position: relative;
+    left: 3vw;
+    top: 0vh;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    z-index: 2;
+}
+.msg{
+    color: red;
+    font-family: sans-serif;
+    font-size: 10px;
+    position: relative;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    bottom: 3.5vh;
+}
+.scene1{
+    position: relative;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.scene1 img{
+    height: 22vh;
+    position: relative;
+    top: 3vh;
+}
+
+.scene1 h3{
+position: relative;
+top: 4vh;
+}
+
+.scene1 p{
+    top: 2vh;
+    color: hsl(200, 26%, 54%);
+    font-size: 16px;
+    position: relative;
+    width: 40vw;
+}
+
+.scene2{
+    position: relative;
+    bottom: 50vh;
+    left: 2vh;
+    width: 100vw;
+    font-family: sans-serif;
+    visibility: hidden;
+}
+
+.scene2 h3{
+    position: relative;
+    color: white;
+    left: 0.7vw;
+}
+
+.scene2 p{
+    bottom: 1.2vh;
+    left: 0.7vw;
+    color:hsl(200, 26%, 54%);
+    font-size: 16px;
+    position: relative;
+    width: 45vw;
+}
+
+.box{
+    width: 44vw;
+    height: 32vh;
+    position: relative;
+    background-color: hsl(201, 91%, 9%);
+    left: 0.8vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color: hsl(61, 70%, 52%);
+    border-width: 3px;
+}
+
+.box p{
+    position: relative;
+    left: 2.5vw;
+}
+.calculated-amount{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    color: hsl(61, 70%, 52%);
+}
+
+.calculated-amount i{
+    position: relative;
+    bottom: 2.5vh;
+    left: 3vw;
+    font-size: 45px;
+}
+
+.calculated-amount h1{
+    position: relative;
+    bottom: 8.2vh;
+    left: 4vw;
+    font-size: 45px;
+}
+
+hr{
+    width: 39vw;
+    border-color:  hsl(200, 24%, 40%);
+}
+
+.total-repay{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.total-repay i{
+    position: relative;
+    bottom: 2.5vh;
+    left: 2.8vw;
+    font-size: 20px;
+}
+
+.total-repay h6{
+    position: relative;
+    bottom: 10.2vh;
+    left: 3.5vw;
+    font-size: 20px;
+}
+}
