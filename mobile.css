@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
     input[type=number]::-webkit-outer-spin-button,
         input[type=number]::-webkit-inner-spin-button {
             -webkit-appearance: none;
@@ -11,15 +11,15 @@
 .parent{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .main{
     display: flex;
     flex-direction: column;
-    margin-top: 2vh;
-    margin-right: 8vw;
-    width: 50vw;
-    height: 75vh;
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    width: 142vw;
+    height: 95vh;
     background-color:white;
     border-radius: 10px;
     border-bottom-left-radius: 0px;
@@ -35,21 +35,22 @@ body{
     font-family: sans-serif;
 }
 .mainHeading h3{
-padding-left: 1.7vw;
+padding-left: 5vw;
 color: hsl(202, 55%, 16%);
 }
 #clearAll{
     position: relative;
-    bottom: 6vh;
-    right: 10.5vw;
-    font-size: 13px;
+    bottom: 3vh;
+    left: 5vw;
+    font-size: 12px;
     color: hsl(200, 26%, 54%);
 }
 .input1{
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 7vh;
+    left: 5vw;
+    bottom: 5vh;
     font-family: sans-serif;
     color: hsl(200, 26%, 54%);
 }
@@ -61,7 +62,7 @@ color: hsl(202, 55%, 16%);
 }
 .input1_1 input{
     border-style: solid;
-    width: 42vw;
+    width: 118vw;
     border-left: 0px;
     border-width: 1.5px;
     border-top-right-radius: 3px;
@@ -69,8 +70,8 @@ color: hsl(202, 55%, 16%);
     border-color: hsl(200, 26%, 54%);
 }
 .icon{
-    width: 4vw;
-    height: 4vh;
+    width: 10vw;
+    height: 6vh;
     background-color: hsl(202, 86%, 94%);
     color: hsl(200, 26%, 54%);
     border-style: solid;
@@ -80,19 +81,19 @@ color: hsl(202, 55%, 16%);
     border-bottom-left-radius: 3px;
 }
 .icon i{
-    padding-left: 1.2vw;
-    padding-top: 0.8vh;
+    padding-left: 3.2vw;
+    padding-top: 1.7vh;
 }
 .input2{
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 15vh;
+    bottom: 13vh;
 }
 .input2_1{
     display: flex;
     flex-direction: column;
-    padding-left: 1.7vw;
+    padding-left: 5vw;
     font-family: sans-serif;
     color: hsl(200, 26%, 54%);
 }
@@ -103,8 +104,8 @@ color: hsl(202, 55%, 16%);
     bottom: 2vh;
 }
 .input_years input{
-    height: 3.3vh;
-    width: 38.4vw;
+    height: 6vh;
+    width: 110vw;
     border-style: solid;
     border-color:  hsl(200, 26%, 54%);
     border-right: 0px;
@@ -116,8 +117,8 @@ color: hsl(202, 55%, 16%);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3.6vh;
-    width: 7.48vw;
+    height: 6.3vh;
+    width: 18vw;
     background-color: hsl(202, 86%, 94%);
     border-style: solid;
     border-left: 0px;
@@ -130,8 +131,8 @@ color: hsl(202, 55%, 16%);
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 8vh;
-    padding-left: 1.8vw;
+    bottom: 7.5vh;
+    padding-left: 5vw;
     font-family: sans-serif;
     color: hsl(200, 26%, 54%);
 }
@@ -142,8 +143,8 @@ color: hsl(202, 55%, 16%);
     bottom: 2vh;
 }
 .input_rate input{
-    height: 3.3vh;
-    width: 40.98vw;
+    height: 6vh;
+    width: 115vw;
     border-style: solid;
     border-color:  hsl(200, 26%, 54%);
     border-right: 0px;
@@ -155,8 +156,8 @@ color: hsl(202, 55%, 16%);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3.6vh;
-    width: 4.8vw;
+    height: 6.3vh;
+    width: 13vw;
     background-color: hsl(202, 86%, 94%);
     border-style: solid;
     border-left: 0px;
@@ -174,11 +175,11 @@ color: hsl(202, 55%, 16%);
 .selection{
     display: flex;
     flex-direction: column;
-    padding-left: 1.68vw;
+    padding-left: 5vw;
     font-family: sans-serif;
     color:  hsl(200, 26%, 54%);
     position: relative;
-    bottom: 31vh;
+    bottom: 28vh;
 }
 label{
     color: hsl(202, 55%, 16%);
@@ -188,7 +189,7 @@ label{
 .repay{
     padding-top: 1.8vh;
     padding-left: 0.7vw;
-    width: 45.8vw;
+    width: 128vw;
     height: 4.8vh;
     border-style: solid;
     border-width: 1.5px;
@@ -202,7 +203,7 @@ label{
     padding-top: 1.8vh;
     padding-left: 0.7vw;
     margin-top: 0.8vh;
-    width: 45.8vw;
+    width: 128vw;
     height: 4.8vh;
     border-style: solid;
     border-width: 1.5px;
@@ -213,13 +214,14 @@ label{
     cursor: pointer;
 }
 input[type="radio"]{
-    top: 0.05vh;
+    bottom: 0.2vh;
+    left: 1vw;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     position: relative;
-    width: 1.5vw;
-    height: 1.7vh;
+    width: 2.8vw;
+    height: 1.8vh;
     border-style: solid;
     border-radius: 10px;
     border-width: 1.5px;
@@ -228,10 +230,10 @@ input[type="radio"]{
 
 input[type="radio"]:checked::before{
     content: "";
-    width: 0.7vw;
-    height: 0.96vh;
-    top: 0.676vh;
-    left: 0.545vw;
+    width: 1.7vw;
+    height: 1vh;
+    top: 0.7vh;
+    left: 0.9vw;
     border-radius: 10px;
     position: absolute;
     background-color:hsl(61, 70%, 52%);
@@ -251,26 +253,26 @@ input[type="radio"].checked{
 
 #cal{
     font-family: sans-serif;
-    margin-left: 1.6vw;
+    margin-left: 5vw;
     border-radius: 25px;
     border-width: 0px;
-    width: 47vw;
-    height: 6.7vh;
+    width: 130vw;
+    height: 7vh;
     background-color: hsl(61, 70%, 52%);
     position: relative;
-    bottom: 36vh;
+    bottom: 32vh;
 }
 #cal b{
     margin-left: 0.8vw;
     font-size: 14px;
     position: relative;
-    bottom: 0.2vh;
+    bottom: 0vh;
     border-radius: 0px;
 }
 #cal img{
     height: 2.8vh;
     position: relative;
-    top: 0.3vh;
+    top: 0.4vh;
 }
 .calculator{
     display: flex;
@@ -294,12 +296,12 @@ input[type="radio"].checked{
 }
 
 .main2{
-    width: 50vw;
+    width: 142vw;
     height: 73vh;
     background-color: hsl(202, 55%, 16%);
     position: relative;
-    left: 3vw;
-    top: 0vh;
+    left: 2vw;
+    top: 2vh;
     border-radius: 10px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -313,6 +315,7 @@ input[type="radio"].checked{
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     bottom: 3.5vh;
+    visibility: hidden;
 }
 .scene1{
     position: relative;
@@ -341,13 +344,13 @@ top: 4vh;
     color: hsl(200, 26%, 54%);
     font-size: 16px;
     position: relative;
-    width: 40vw;
+    width: 90vw;
 }
 
 .scene2{
     position: relative;
     bottom: 50vh;
-    left: 2vh;
+    left: 5vh;
     width: 100vw;
     font-family: sans-serif;
     visibility: hidden;
@@ -365,12 +368,12 @@ top: 4vh;
     color:hsl(200, 26%, 54%);
     font-size: 16px;
     position: relative;
-    width: 45vw;
+    width: 125vw;
 }
 
 .box{
-    width: 44vw;
-    height: 32vh;
+    width: 125vw;
+    height: 38vh;
     position: relative;
     background-color: hsl(201, 91%, 9%);
     left: 0.8vw;
@@ -385,7 +388,7 @@ top: 4vh;
 
 .box p{
     position: relative;
-    left: 2.5vw;
+    left: 5vw;
 }
 .calculated-amount{
     display: flex;
@@ -396,20 +399,20 @@ top: 4vh;
 
 .calculated-amount i{
     position: relative;
-    bottom: 2.5vh;
-    left: 3vw;
+    bottom: 1.7vh;
+    left: 6vw;
     font-size: 45px;
 }
 
 .calculated-amount h1{
     position: relative;
     bottom: 8.2vh;
-    left: 4vw;
+    left: 9vw;
     font-size: 45px;
 }
 
 hr{
-    width: 39vw;
+    width: 110vw;
     border-color:  hsl(200, 24%, 40%);
 }
 
@@ -421,15 +424,15 @@ hr{
 
 .total-repay i{
     position: relative;
-    bottom: 2.5vh;
-    left: 2.8vw;
+    bottom: 1.5vh;
+    left: 6vw;
     font-size: 20px;
 }
 
 .total-repay h6{
     position: relative;
-    bottom: 10.2vh;
-    left: 3.5vw;
+    bottom: 10.4vh;
+    left: 8vw;
     font-size: 20px;
 }
 }
