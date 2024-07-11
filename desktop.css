@@ -1,4 +1,4 @@
-input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-outer-spin-button,
         input[type=number]::-webkit-inner-spin-button {
             -webkit-appearance: none;
             margin: 0;
@@ -63,7 +63,7 @@ color: hsl(202, 55%, 16%);
 }
 .icon{
     width: 2.3vw;
-    height: 4vh;
+    height: 5vh;
     background-color: hsl(202, 86%, 94%);
     color: hsl(200, 26%, 54%);
     border-style: solid;
@@ -74,7 +74,7 @@ color: hsl(202, 55%, 16%);
 }
 .icon i{
     padding-left: 0.7vw;
-    padding-top: 0.8vh;
+    padding-top: 1.2vh;
 }
 .input2{
     display: flex;
@@ -96,7 +96,7 @@ color: hsl(202, 55%, 16%);
     bottom: 2vh;
 }
 .input_years input{
-    height: 3.3vh;
+    height: 4vh;
     width: 9vw;
     border-style: solid;
     border-color:  hsl(200, 26%, 54%);
@@ -109,7 +109,7 @@ color: hsl(202, 55%, 16%);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3.6vh;
+    height: 4.3vh;
     width: 4.8vw;
     background-color: hsl(202, 86%, 94%);
     border-style: solid;
@@ -133,7 +133,7 @@ color: hsl(202, 55%, 16%);
     bottom: 2vh;
 }
 .input_rate input{
-    height: 3.3vh;
+    height: 4vh;
     width: 9vw;
     border-style: solid;
     border-color:  hsl(200, 26%, 54%);
@@ -146,7 +146,7 @@ color: hsl(202, 55%, 16%);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3.6vh;
+    height: 4.3vh;
     width: 4.8vw;
     background-color: hsl(202, 86%, 94%);
     border-style: solid;
