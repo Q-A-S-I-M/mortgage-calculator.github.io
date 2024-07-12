@@ -1,1 +1,438 @@
+@media only screen and (max-width: 480px) {
+    input[type=number]::-webkit-outer-spin-button,
+        input[type=number]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
 
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    width: 142vw;
+    height: 95vh;
+    background-color:white;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: 2;
+}
+body{
+    background-color: hsl(202, 86%, 94%);
+}
+.mainHeading{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.mainHeading h3{
+padding-left: 5vw;
+color: hsl(202, 55%, 16%);
+}
+#clearAll{
+    position: relative;
+    bottom: 3vh;
+    left: 5vw;
+    font-size: 12px;
+    color: hsl(200, 26%, 54%);
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5vw;
+    bottom: 5vh;
+    font-family: sans-serif;
+    color: hsl(200, 26%, 54%);
+}
+.input1_1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 2vh;
+}
+.input1_1 input{
+    border-style: solid;
+    width: 118vw;
+    border-left: 0px;
+    border-width: 1.5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-color: hsl(200, 26%, 54%);
+}
+.icon{
+    width: 10vw;
+    height: 6vh;
+    background-color: hsl(202, 86%, 94%);
+    color: hsl(200, 26%, 54%);
+    border-style: solid;
+    border-right: 0px;
+    border-width: 1.5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.icon i{
+    padding-left: 3.2vw;
+    padding-top: 1.7vh;
+}
+.input2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 13vh;
+}
+.input2_1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    font-family: sans-serif;
+    color: hsl(200, 26%, 54%);
+}
+.input_years{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 2vh;
+}
+.input_years input{
+    height: 6vh;
+    width: 110vw;
+    border-style: solid;
+    border-color:  hsl(200, 26%, 54%);
+    border-right: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-width: 1.5px;
+}
+.year_p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6.3vh;
+    width: 18vw;
+    background-color: hsl(202, 86%, 94%);
+    border-style: solid;
+    border-left: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-width: 1.5px;
+    font-size: smaller;
+}
+.input2_2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 7.5vh;
+    padding-left: 5vw;
+    font-family: sans-serif;
+    color: hsl(200, 26%, 54%);
+}
+.input_rate{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 2vh;
+}
+.input_rate input{
+    height: 6vh;
+    width: 115vw;
+    border-style: solid;
+    border-color:  hsl(200, 26%, 54%);
+    border-right: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-width: 1.5px;
+}
+.rate_p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6.3vh;
+    width: 13vw;
+    background-color: hsl(202, 86%, 94%);
+    border-style: solid;
+    border-left: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-width: 1.5px;
+    font-size: smaller;
+}
+.change{
+    background-color: hsl(61, 70%, 52%) ;
+    border-color:  hsl(61, 70%, 52%);
+    color: black;
+}
+
+.selection{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    font-family: sans-serif;
+    color:  hsl(200, 26%, 54%);
+    position: relative;
+    bottom: 28vh;
+}
+label{
+    color: hsl(202, 55%, 16%);
+    cursor: pointer;
+}
+
+.repay{
+    padding-top: 1.8vh;
+    padding-left: 0.7vw;
+    width: 128vw;
+    height: 4.8vh;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: hsl(200, 26%, 54%);
+    border-radius: 3px;
+    position: relative;
+    bottom: 1.6vh;
+    cursor: pointer;
+}
+.int{
+    padding-top: 1.8vh;
+    padding-left: 0.7vw;
+    margin-top: 0.8vh;
+    width: 128vw;
+    height: 4.8vh;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color:  hsl(200, 26%, 54%);
+    border-radius: 3px;
+    position: relative;
+    bottom: 1.6vh;
+    cursor: pointer;
+}
+input[type="radio"]{
+    bottom: 0.2vh;
+    left: 1vw;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    width: 2.8vw;
+    height: 1.8vh;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1.5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked::before{
+    content: "";
+    width: 1.7vw;
+    height: 1vh;
+    top: 0.7vh;
+    left: 0.9vw;
+    border-radius: 10px;
+    position: absolute;
+    background-color:hsl(61, 70%, 52%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+input[type="radio"].checked{
+    border-color: hsl(61, 70%, 52%);
+    cursor: pointer;
+}
+
+.change2{
+    border-color: hsl(61, 70%, 52%);
+    background-color:  hsl(60, 100%, 95%);
+}
+
+#cal{
+    font-family: sans-serif;
+    margin-left: 5vw;
+    border-radius: 25px;
+    border-width: 0px;
+    width: 130vw;
+    height: 7vh;
+    background-color: hsl(61, 70%, 52%);
+    position: relative;
+    bottom: 32vh;
+}
+#cal b{
+    margin-left: 0.8vw;
+    font-size: 14px;
+    position: relative;
+    bottom: 0vh;
+    border-radius: 0px;
+}
+#cal img{
+    height: 2.8vh;
+    position: relative;
+    top: 0.4vh;
+}
+.calculator{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#cal:hover{
+    background-color: hsl(61, 80%, 70%);
+    scale: 1.01;
+    cursor: pointer;
+}
+#cal:active {
+    background-color: hsl(61, 80%, 60%);
+    scale: 1;
+}
+.alert{
+    background-color: hsl(4, 69%, 50%);
+    border-color: hsl(4, 69%, 50%);
+    color: white;
+}
+
+.main2{
+    width: 142vw;
+    height: 73vh;
+    background-color: hsl(202, 55%, 16%);
+    position: relative;
+    left: 2vw;
+    top: 2vh;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    z-index: 2;
+}
+.msg{
+    color: red;
+    font-family: sans-serif;
+    font-size: 10px;
+    position: relative;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    bottom: 3.5vh;
+    visibility: hidden;
+}
+.scene1{
+    position: relative;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.scene1 img{
+    height: 22vh;
+    position: relative;
+    top: 3vh;
+}
+
+.scene1 h3{
+position: relative;
+top: 4vh;
+}
+
+.scene1 p{
+    top: 2vh;
+    color: hsl(200, 26%, 54%);
+    font-size: 16px;
+    position: relative;
+    width: 90vw;
+}
+
+.scene2{
+    position: relative;
+    bottom: 50vh;
+    left: 5vh;
+    width: 100vw;
+    font-family: sans-serif;
+    visibility: hidden;
+}
+
+.scene2 h3{
+    position: relative;
+    color: white;
+    left: 0.7vw;
+}
+
+.scene2 p{
+    bottom: 1.2vh;
+    left: 0.7vw;
+    color:hsl(200, 26%, 54%);
+    font-size: 16px;
+    position: relative;
+    width: 125vw;
+}
+
+.box{
+    width: 125vw;
+    height: 38vh;
+    position: relative;
+    background-color: hsl(201, 91%, 9%);
+    left: 0.8vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color: hsl(61, 70%, 52%);
+    border-width: 3px;
+}
+
+.box p{
+    position: relative;
+    left: 5vw;
+}
+.calculated-amount{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    color: hsl(61, 70%, 52%);
+}
+
+.calculated-amount i{
+    position: relative;
+    bottom: 1.7vh;
+    left: 6vw;
+    font-size: 45px;
+}
+
+.calculated-amount h1{
+    position: relative;
+    bottom: 8.2vh;
+    left: 9vw;
+    font-size: 45px;
+}
+
+hr{
+    width: 110vw;
+    border-color:  hsl(200, 24%, 40%);
+}
+
+.total-repay{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.total-repay i{
+    position: relative;
+    bottom: 1.5vh;
+    left: 6vw;
+    font-size: 20px;
+}
+
+.total-repay h6{
+    position: relative;
+    bottom: 10.4vh;
+    left: 8vw;
+    font-size: 20px;
+}
+}
